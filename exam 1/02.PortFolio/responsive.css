@@ -1,0 +1,45 @@
+@media (width <=600px) {
+    nav ul {
+        display: none;
+    }
+    nav .checkbtn {
+        display: inline-block;
+    }
+
+    nav {
+        flex-direction: row-reverse;
+    }
+
+    .site-header > i,
+    .site-header > h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .site-header > i {
+        left: 0;
+    }
+
+    .container-fluid > section.about {
+        display: flex;
+        gap: 2em;
+    }
+
+    .container-fluid > section.about > .about-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        /* background-color: red; */
+        bottom: 0;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
