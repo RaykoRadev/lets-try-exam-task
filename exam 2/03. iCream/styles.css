@@ -1,1 +1,84 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 Poppins;
+}
+
+input,
+button,
+a {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f195b2;
+    color: #fff;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+.contacs {
+}
+
+.contacs ul {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.contacs ul li {
+    display: block;
+    padding: 0 1.3em;
+}
+
+.contacs ul :not(:first-child) {
+    border-left: 2px solid;
+    line-height: 0.9;
+}
+
+.social ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.social ul li {
+    display: block;
+    padding: 0 1.1em;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 35em;
+    z-index: 1;
+    width: 73%;
+    position: absolute;
+    top: 100px;
+    left: 13.5em;
+}
+
+.label {
+    padding-top: 1.5em;
+}
