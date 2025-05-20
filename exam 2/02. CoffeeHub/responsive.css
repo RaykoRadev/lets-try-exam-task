@@ -1,0 +1,110 @@
+@media (width <= 600px) {
+    html {
+        font-size: 16px;
+    }
+
+    .home-links-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-navbar {
+        padding-left: 80px;
+        padding-bottom: 14px;
+        padding-top: 14px;
+    }
+
+    .home-navbar,
+    .Anchor {
+        font-size: 15px;
+        font-style: normal;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.55;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+
+    .home-cta-btn {
+        padding: 8px 15px;
+    }
+
+    .home-heading-container {
+        width: 100%;
+    }
+
+    .Section-Heading {
+        font-size: 40px;
+    }
+
+    .home-text04,
+    .home-text05,
+    .home-text06,
+    .home-text07 {
+        font-size: 15px;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Card-Heading {
+        font-size: 22px;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+    }
+
+    .home-stats {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 48px;
+        margin-top: 758px;
+    }
+
+    .home-text08,
+    .home-text13,
+    .home-text17,
+    .home-text22 {
+        font-size: 2.5rem;
+    }
+
+    .home-hero {
+        flex-direction: column-reverse;
+    }
+
+    .home-image1 {
+        width: 100%;
+    }
+
+    .home-hero-text-container {
+        margin-top: 22px;
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-heading {
+        font-size: 44px;
+    }
+
+    .home-cta-btn2 {
+        color: #ffffff;
+        align-self: auto;
+        padding-left: 18px;
+        padding-right: 18px;
+        text-align: center;
+        padding-top: 16px;
+        border-width: 0px;
+        border-radius: 34px;
+        padding-bottom: 16px;
+        background-color: #81660b;
+    }
+}
