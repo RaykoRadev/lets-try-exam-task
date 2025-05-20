@@ -33,11 +33,11 @@ header {
     align-items: center;
     justify-content: center;
     gap: 0.5em;
-    padding-bottom: 1.5em;
+    padding-bottom: 2em;
 }
 
-.contacs {
-}
+/* .contacs {
+} */
 
 .contacs ul {
     display: flex;
@@ -69,16 +69,41 @@ header {
 .navigation {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #fff;
     border-radius: 35em;
     z-index: 1;
     width: 73%;
     position: absolute;
-    top: 100px;
+    top: 104px;
     left: 13.5em;
+    padding: 0 7.2em;
 }
 
+.navigation ul {
+    display: flex;
+    gap: 2em;
+    font-weight: 700;
+}
+
+.navigation ul li {
+    display: block;
+}
 .label {
     padding-top: 1.5em;
+}
+
+.big-cream {
+    color: #f195b2;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.dif-color {
+    color: #62c3e7;
+}
+
+.stay-together {
+    display: flex;
+    gap: 0.1em;
 }
