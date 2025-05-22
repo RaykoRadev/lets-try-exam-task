@@ -16,6 +16,7 @@ a {
 }
 
 body {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -112,6 +113,7 @@ header {
     width: 100%;
     padding-top: 0;
     position: relative;
+    margin-bottom: 0;
 }
 
 .label img {
@@ -123,5 +125,60 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    translate: -50% -50%;
+    translate: -50% -57%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.center p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 31px;
+}
+
+.center h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 105px;
+    line-height: 122px;
+}
+
+.pink-blue {
+    color: #fff;
+    background-color: #f195b2;
+    padding: 0.6em 0;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 20em;
+    font-weight: 500;
+    min-width: 8.3em;
+}
+
+.mid-line {
+    background-color: #aaacb2;
+    height: 0.4em;
+    width: 100%;
+    margin: 0;
+    z-index: 4;
+    position: absolute;
+    top: 63.3em;
+}
+
+.about {
+    background-color: #c8e7f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6em 10em;
+}
+
+.line {
+    background-color: #f195b2;
+    height: 0.3em;
+    width: 8%;
 }
