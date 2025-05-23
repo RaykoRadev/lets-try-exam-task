@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 15px/1.5 Margarine;
+    background-color: #fff0e4;
+}
+
+body {
+    display: flex;
+    margin: 10em;
+    gap: 1em;
+}
+
+aside {
+    border: 1px solid black;
+    padding: 1em;
+    width: 30%;
+}
+
+aside h1 {
+    padding-bottom: 1em;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+aside nav {
+    padding-bottom: 1em;
+    border-bottom: 1px solid grey;
+}
+
+aside nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+aside nav ul li {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+aside nav ul li i {
+    color: #2690e6;
+}
+
+.stats {
+    padding: 1em 0.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.stats section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+
+.stats h4 {
+    font-weight: 500;
+}
+
+.ninty {
+    width: 90%;
+}
+
+.eighty {
+    width: 80%;
+}
+
+.seventy-five {
+    width: 75%;
+}
+
+.fifty {
+    width: 50%;
+}
+
+.progress-container p {
+    display: flex;
+    background-color: #2690e6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5em;
+    height: 1.2em;
+}
+
+main {
+    border: 1px solid black;
+    padding: 2em;
+    /* display: flex;
+    flex-direction: column; */
+}
+main h2 {
+    text-align: center;
+    margin: 0.8em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+    padding: 1em;
+}
+
+main section:not(:last-child) {
+    border-bottom: 2px solid rgb(163, 161, 161);
+}
+
+main section h3 {
+    color: #6f6862;
+}
+
+main section h4 {
+    color: #4aa3e5;
+    font-weight: 400;
+}
