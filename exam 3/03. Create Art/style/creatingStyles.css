@@ -31,12 +31,90 @@ nav ul li {
 }
 
 nav ul li .red-color {
-    color: red;
+    color: #ff3946;
 }
 
 .button {
-    border: 0.2em solid red;
+    border: 0.2em solid #ff3946;
     padding: 1em 3em;
     background-color: #f0f0f0;
     border-radius: 0.5em;
 }
+
+.banner section h1 {
+    color: #314584;
+    font-size: 3.5em;
+    z-index: 4;
+    position: absolute;
+}
+
+.banner section .first-row {
+    top: 0;
+    left: 0;
+}
+
+.banner section .second-row {
+    margin-top: 1.8em;
+    top: 0;
+    left: 0;
+}
+
+.banner .text p,
+.links {
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em 0;
+    color: grey;
+}
+
+.banner {
+    display: flex;
+    padding: 4em 0 4em 5em;
+}
+
+.pic {
+    padding-right: 0em;
+    display: flex;
+    flex-grow: 1;
+}
+
+.text {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    z-index: 4;
+    width: 55%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.links a {
+    padding: 1em;
+
+    border-radius: 2em;
+    padding: 1em 2em;
+    box-shadow: 1px 25px 37px -12px rgba(0, 0, 0, 0.3);
+}
+
+.links .left {
+    background-color: #ff3946;
+    color: white;
+}
+
+.links .right {
+    background-color: white;
+}
+
+/* .design {
+    padding: 0.2em;
+    box-shadow: ;
+} */
