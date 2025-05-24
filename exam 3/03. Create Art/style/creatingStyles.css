@@ -33,7 +33,7 @@ nav ul li {
     letter-spacing: 0.1em;
 }
 
-nav ul li .red-color {
+.red-color {
     color: #ff3946;
 }
 
@@ -159,11 +159,97 @@ h3 {
 }
 
 .left-side {
-    top: 28%;
+    top: 31%;
     left: -7%;
 }
 
 .right-side {
-    top: 41.5%;
+    top: 47%;
     right: -7%;
+}
+
+.our-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4em 4em 2em 4em;
+}
+
+.our-company img {
+    width: 35%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+h2 ~ h2 {
+    padding-bottom: 1em;
+}
+
+.our-company .grey {
+    width: 55ch;
+    color: grey;
+    padding-bottom: 4em;
+}
+
+.our-company form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.our-company form h2 {
+    padding: 1em;
+}
+
+.our-company form input,
+.our-company form textarea {
+    background-color: #314584;
+    border-radius: 1em;
+    padding: 0.8em;
+}
+
+.our-company form textarea {
+    min-height: 8em;
+}
+
+::placeholder {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer {
+    background-color: #314584;
+    color: #f0f0f0;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 4em 2em 4em;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 0.7em;
+}
+
+footer ul {
+    display: flex;
+    gap: 2em;
+}
+
+footer ul li {
+    display: block;
+}
+
+footer ul li a {
+    color: #f0f0f0;
 }
