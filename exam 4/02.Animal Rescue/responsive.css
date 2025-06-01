@@ -1,0 +1,22 @@
+@media (width <= 600px) {
+    body {
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-title {
+        padding: 0;
+    }
+
+    .our-dogs ul li img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .helpNeed ul {
+        display: block;
+    }
+}
