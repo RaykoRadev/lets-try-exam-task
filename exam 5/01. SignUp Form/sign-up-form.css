@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1bdba;
+    font: 20px/1.4 "Kode Mono";
+}
+
+body > * {
+    width: 100%;
+}
+
+input {
+    font: inherit;
+    background-color: transparent;
+    border: 1.5px solid #a0b3b0;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 0.1rem;
+}
+
+/*! all sectors/divs has to be with max-width .... px from the figma 
+exp: .section {
+    max-width: 1320px
+    margin: 0 auto
+}
+ */
+.wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #24333c;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.5);
+
+    .log-sign {
+        display: flex;
+        gap: 0;
+        border-radius: 0.1em;
+    }
+
+    .log-sign > * {
+        flex-grow: 1;
+        padding: 1em 2.5em;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .signIn {
+        background-color: #1ab188;
+        color: white;
+    }
+
+    .logIn {
+        background-color: #435359;
+        color: #a0b2af;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        position: relative;
+
+        legend {
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            padding: 1em;
+            padding-bottom: 0;
+        }
+
+        .names {
+            position: relative;
+            display: flex;
+            gap: 1.2em;
+
+            input {
+                flex-grow: 1;
+            }
+        }
+
+        input::placeholder {
+            padding: 1em;
+            color: #92999e;
+        }
+        label {
+            position: absolute;
+            color: #1ab188;
+            display: inline-block;
+        }
+
+        .fName {
+            top: 9px;
+            left: 170px;
+        }
+
+        .lName {
+            top: 9px;
+            right: 155px;
+        }
+
+        .email {
+            top: 230px;
+            left: 212px;
+        }
+
+        .pass {
+            top: 314px;
+            left: 228px;
+        }
+
+        input[type="submit"] {
+            background-color: #1ab188;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 2em;
+            padding: 0.2em;
+        }
+    }
+}
