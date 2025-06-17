@@ -54,6 +54,10 @@
         font-size: 22px;
     }
 
+    .home-features {
+        height: auto;
+    }
+
     .home-feature-card,
     .home-feature-card1,
     .home-feature-card2 {
@@ -65,7 +69,6 @@
         display: flex;
         flex-direction: column;
         padding: 48px;
-        margin-top: 758px;
     }
 
     .home-text08,
