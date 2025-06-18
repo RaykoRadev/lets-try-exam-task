@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    font: 16px/1.4 "Agbalumo";
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    max-width: 870px;
+    max-width: 727px;
+    padding: 1em;
+    background-color: white;
+}
+
+body > * {
+    width: 100%;
+}
+
+.container {
+    border: 2px solid black;
+    header {
+        background-color: #d5ebea;
+        text-align: center;
+        padding-top: 2em;
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h3 {
+            border-bottom: 2px solid black;
+            border-top: 2px solid black;
+            margin: 0 1em;
+            font-weight: 300;
+        }
+    }
+
+    .middle-part {
+        background-color: white;
+        display: flex;
+        padding: 2em 1em;
+        gap: 1.5em;
+
+        aside {
+            max-width: 35%;
+            border: 2px solid black;
+            padding: 0.5em;
+
+            p {
+                font-size: 0.5em;
+                padding-top: 1.5em;
+                text-indent: 2em;
+            }
+        }
+
+        .main p {
+            padding-top: 1em;
+            text-indent: 2em;
+            font-size: 0.9em;
+        }
+    }
+
+    footer {
+        h2 {
+            background-color: black;
+            color: white;
+            max-width: 28ch;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .contacts {
+            background: #d5ebea;
+            padding: 1em 1.5em;
+            p:not(:last-child) {
+                padding-bottom: 1em;
+            }
+        }
+    }
+}
