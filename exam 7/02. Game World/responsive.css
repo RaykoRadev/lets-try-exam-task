@@ -1,16 +1,78 @@
 @media (width <=600px) {
     body {
-        display: block;
-        max-width: 600px;
-        margin: 0;
-        padding: 0;
+        width: 80ch;
     }
-    body > * {
-        width: 100%;
+    .placeholder {
+        width: 80ch;
+        padding-bottom: 12em;
     }
-    header {
-        display: block;
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+
+    .tm-header {
+        position: static;
+    }
+
     .tm-header-inner {
+        padding-top: 0;
+    }
+
+    .tm-site-title {
+        padding-left: 1em;
+    }
+
+    .text-center {
+        font-size: 1.7em;
+    }
+
+    .tm-section-title {
+        font-size: 3em;
+        margin-left: 0;
+    }
+
+    .tm-gallery-item {
+        max-width: 430px;
+    }
+
+    .tm-gallery {
+        margin-left: 0;
+    }
+
+    .tm-gallery-title {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .tm-gallery-price {
+        font-size: 2em;
+    }
+
+    .tm-cta-section {
+        display: block;
+        width: auto;
+    }
+
+    .tm-description-box h4 {
+        text-align: left;
+    }
+
+    .tm-description-box p {
+        font-size: 1.6em;
+    }
+
+    .tm-btn {
+        font-size: 1.5rem;
+    }
+
+    .tm-gallery-description {
+        font-size: 1.1rem;
+    }
+
+    .tm-gallery-page {
+        margin: 1px 200px;
     }
 }
