@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font: 16px/1.4 "Ubuntu";
+}
+
+body > * {
+    width: 100%;
+}
+
+.inner {
+    max-width: 1566px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    top: -90px;
+}
+
+header {
+    display: flex;
+    padding: 2em 3em;
+    justify-content: space-between;
+    background-color: white;
+
+    .left-side {
+        display: flex;
+        align-items: baseline;
+        gap: 2em;
+
+        h1 {
+            padding-right: 0.5em;
+            border-right: 3px solid #dbdbdb;
+        }
+
+        p {
+            opacity: 0.6;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            gap: 0.2em;
+        }
+
+        ul > li {
+            display: block;
+            background-color: #ececec;
+            padding: 0.7em 2em;
+            color: #696969;
+        }
+
+        ul > li:is(:first-child) {
+            background-color: #56dbb1;
+            color: black;
+        }
+    }
+}
+
+.green-banner {
+    background: #56dbb1;
+    position: relative;
+    top: -200px;
+    padding: 4em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.collum-icon {
+    background: #353434;
+    padding: 6em;
+    position: relative;
+    top: -200px;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 5em;
+    }
+
+    .green-box {
+        max-width: 40ch;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+
+        i {
+            background: #56dbb1;
+            color: white;
+            padding: 0.5em;
+            font-size: 2em;
+            align-self: center;
+            font-weight: 700;
+        }
+
+        h5 {
+            color: white;
+        }
+
+        p {
+            border-top: 1px solid #eeeeee;
+            padding-top: 1em;
+            /* opacity: 0.4; */
+            color: #5b5956;
+            font-weight: lighter;
+            text-align: center;
+        }
+    }
+}
+
+.small-banner {
+    background-color: white;
+    position: relative;
+    top: -100px;
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 2em;
+            color: #5f5f5f;
+        }
+
+        p {
+            color: #c3bcb8;
+        }
+
+        button {
+            margin-top: 1.5em;
+            padding: 0.8em 2.5em;
+            color: white;
+            background: #974d1b;
+            border: none;
+        }
+    }
+}
+
+.only-collum {
+    background: #353434;
+    padding: 6em 0;
+    position: relative;
+    top: -10px;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .collum-info {
+        max-width: 40ch;
+
+        h3 {
+            color: white;
+            text-align: center;
+            padding-bottom: 1em;
+        }
+
+        p {
+            text-align: center;
+            color: #5b5956;
+            font-weight: lighter;
+        }
+    }
+}
+
+.footer {
+    /* position: absolute;
+    bottom: -630px; */
+    margin-top: -10px;
+    background-color: #1b9772;
+    text-align: center;
+    color: #56dbb1;
+    padding: 3em 0;
+    .diffrent-color {
+        color: #dbfaf0;
+    }
+}
