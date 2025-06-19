@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font: 16px/1.4 "PT", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: 16px/1.4 "PT", sans;
+}
+
+body > * {
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.inner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.background {
+    position: absolute;
+    top: -22px;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+    align-items: center;
+    font: 16px/1.4 "PT", sans;
+
+    .logo {
+        width: 110px;
+    }
+
+    ul {
+        display: flex;
+        /* list-style: none; */
+        gap: 2.5em;
+
+        li {
+            display: block;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            font-weight: 100;
+        }
+    }
+}
+
+.banner {
+    color: white;
+    margin-bottom: 22em;
+
+    h1 {
+        font-size: 4em;
+        font-weight: 300;
+        padding-bottom: 0.4em;
+        line-height: 1.3em;
+    }
+
+    .inner > p {
+        font-size: 1.4em;
+        line-height: 1.6;
+        max-width: 60ch;
+        /* opacity: 0.9; */
+        font-weight: 300;
+    }
+}
+
+.bissnes-and-soo {
+    background: white;
+    padding: 7em;
+
+    .inner {
+        display: flex;
+        gap: 3.5em;
+
+        h2 {
+            font-size: 3em;
+            font-weight: 600;
+            padding-bottom: 0.4em;
+        }
+
+        p {
+            font-size: 1.3em;
+            padding-bottom: 2em;
+            opacity: 0.7;
+        }
+
+        a {
+            text-decoration: none;
+            border: 2px solid #b0825c;
+            color: #b0825c;
+            padding: 0.8em 1.5em;
+            font-weight: 600;
+        }
+    }
+}
+
+.sponsors-partners {
+    border-top: 1px solid grey;
+    padding-top: 3em;
+    padding-bottom: 4em;
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: 3em;
+            /* font-weight: 600; */
+            padding-bottom: 0.4em;
+            color: #b0825c;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            /* padding-bottom: 1em; */
+            opacity: 0.7;
+            max-width: 139ch;
+            text-align: center;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 6em;
+            padding: 5em;
+
+            section {
+                background-color: #dddddd;
+                border-radius: 50%;
+                aspect-ratio: 1;
+                width: 15%;
+                position: relative;
+
+                img {
+                    width: 65%;
+                    height: auto;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #171720;
+    padding: 3em;
+
+    .inner {
+        display: flex;
+        /* justify-content: space-around; */
+        gap: 9em;
+        padding-right: 6em;
+
+        h3 {
+            color: white;
+            font-size: 1.6em;
+            padding-bottom: 1em;
+        }
+
+        li {
+            display: block;
+            color: white;
+            opacity: 0.3;
+            line-height: 2;
+            font-size: 1.1em;
+        }
+    }
+}
+
+.last-inner {
+    padding: 0.6em;
+    background-color: #171720;
+    color: white;
+    opacity: 0.3;
+}
