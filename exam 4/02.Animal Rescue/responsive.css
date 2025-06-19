@@ -1,7 +1,4 @@
 @media (width <= 600px) {
-    body {
-    }
-
     header nav {
         display: flex;
         flex-direction: column;
