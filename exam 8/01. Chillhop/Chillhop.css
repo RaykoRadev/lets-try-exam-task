@@ -70,11 +70,20 @@ img {
         justify-content: space-between;
         padding: 0 5em;
 
-        button {
+        /* button {
             font-size: 0.7em;
             padding: 0.5em 1em;
             border-radius: 0.5em;
             font-weight: 600;
+            border: 1.5px solid black;
+        } */
+
+        a {
+            font-size: 0.7em;
+            padding: 0.5em 1em;
+            border-radius: 0.5em;
+            font-weight: 600;
+            border: 1.5px solid black;
         }
 
         .main {
