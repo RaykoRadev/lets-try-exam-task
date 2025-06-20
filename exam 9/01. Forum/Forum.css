@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #fff;
+    font: 16px/1.4 "Inter";
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body > * {
+    width: 100%;
+}
+
+.container {
+    max-width: 1629px;
+    margin: 4em auto;
+    display: flex;
+    gap: 2em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    /* justify-content: center; */
+
+    & section {
+        background-color: white;
+        display: flex;
+        padding: 4em 3em;
+        align-items: center;
+        gap: 2em;
+
+        .pic {
+            max-width: 240px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .card {
+            p {
+                padding-bottom: 2em;
+                font-size: 1.2em;
+                line-height: 1.2;
+                max-width: 45ch;
+            }
+
+            svg {
+                width: 3em;
+                padding-bottom: 2em;
+            }
+        }
+    }
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    max-width: 46ch;
+
+    & section {
+        flex-grow: 1;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 4em 3em;
+        align-items: center;
+        gap: 2em;
+        padding-bottom: 1.5em;
+
+        .card {
+            p {
+                padding-bottom: 2em;
+                font-size: 1.2em;
+                line-height: 1.2;
+                max-width: 45ch;
+            }
+            svg {
+                width: 3em;
+                padding-bottom: 4em;
+            }
+        }
+        .bottom {
+            border-top: 1px solid grey;
+            padding-top: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            width: 100%;
+        }
+        .pic {
+            max-width: 120px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+                filter: grayscale(100%);
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2em;
+            padding: 1em;
+            padding-left: 0.3em;
+            align-items: start;
+        }
+    }
+}
