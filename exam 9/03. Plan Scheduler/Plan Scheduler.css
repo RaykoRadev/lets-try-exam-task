@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font: 18px/1.4 "Inter";
+}
+
+body > * {
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.inner {
+    max-width: 1750px;
+    margin: 0 auto;
+}
+
+.background {
+    position: absolute;
+    top: -225px;
+    z-index: -1;
+}
+
+header {
+    background: #d9d9d9;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em 0;
+        padding-bottom: 1em;
+
+        ul {
+            display: flex;
+            gap: 2em;
+            li {
+                display: block;
+                font-size: 1.1em;
+            }
+        }
+
+        a {
+            border: 1px solid black;
+            padding: 0.6em 1.4em;
+            border-radius: 0.4em;
+            text-decoration: none;
+            color: black;
+            background: white;
+            font-size: 0.9em;
+        }
+    }
+}
+
+.banner {
+    font-size: 1.7em;
+    padding: 6em 10em;
+
+    h1 {
+        max-width: 15ch;
+        line-height: 1.2;
+        padding-bottom: 1.6em;
+    }
+
+    p {
+        font-size: 0.8em;
+        font-weight: 600;
+        color: white;
+        line-height: 1.1;
+        max-width: 50ch;
+        padding-bottom: 2.5em;
+    }
+
+    a {
+        border-radius: 0.2em;
+        font-size: 0.6em;
+        padding: 1em 1.7em;
+        font-weight: 100;
+        text-decoration: none;
+        color: white;
+        background: #000;
+    }
+}
+
+.numbers {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2em;
+        text-align: center;
+
+        li {
+            display: block;
+
+            span {
+                color: #ff7c4c;
+                font-size: 3em;
+                font-weight: 700;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-size: 1.2em;
+                padding-top: 2em;
+            }
+
+            .ligther {
+                opacity: 0.6;
+                font-size: 0.9em;
+                padding-bottom: 4em;
+            }
+        }
+    }
+}
+
+.big-images {
+    background: #d9d9d9;
+    padding: 3.5em 0;
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+        & > section {
+            display: flex;
+            gap: 2em;
+
+            img {
+                max-width: 620px;
+            }
+
+            .text {
+                h5 {
+                    font-size: 1.2em;
+                    padding: 1.6em 0;
+                    opacity: 0.5;
+                }
+
+                h2 {
+                    font-size: 2.4em;
+                    padding-bottom: 1em;
+                    padding-top: 0.2em;
+                }
+
+                p {
+                    font-size: 1.1em;
+                    line-height: 1.1;
+                    opacity: 0.7;
+                    max-width: 85ch;
+                }
+
+                a {
+                    display: inline-block;
+                    font-size: 1.2em;
+                    font-weight: 500;
+                    color: black;
+                    text-decoration: none;
+                    padding-bottom: 2em;
+                    padding-top: 0.4em;
+                }
+            }
+        }
+    }
+}
+
+.prices {
+    background: #f5f5f5;
+
+    .inner {
+        background: white;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 3em;
+        gap: 2em;
+
+        section {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 32%;
+
+            /* .price-text {
+                max-width: 40ch;
+            } */
+        }
+        .color-orange {
+            background: #ff7c4c;
+            a {
+                background: black;
+                color: white;
+            }
+        }
+
+        .color-black {
+            background: #000;
+            color: white;
+            a {
+                background: white;
+            }
+        }
+
+        .color-orange,
+        .color-black {
+            padding: 2.5em;
+            box-shadow: 8px 8px 20px 1px rgb(0, 0, 0, 0.2);
+
+            h3 {
+                font-size: 1.8em;
+                /* padding-bottom: 1em; */
+            }
+
+            .huge {
+                font-size: 4em;
+                font-weight: 200;
+                padding-bottom: 0.5em;
+            }
+            p {
+                padding: 0.5em 0;
+                font-size: 1.1em;
+                font-weight: 300;
+            }
+
+            .bolder {
+                font-weight: 600;
+                padding-right: 0.2em;
+            }
+
+            a {
+                /* border: 1px solid red; */
+                display: inline-block;
+                font-size: 1em;
+                font-weight: 300;
+                text-decoration: none;
+                padding: 1em 2em;
+                border-radius: 0.3em;
+                margin-top: 2.5em;
+            }
+        }
+
+        .plane-one {
+            h2 {
+                font-size: 2.2em;
+                font-weight: 800;
+                align-self: start;
+                padding-top: 0.5em;
+                padding-bottom: 2em;
+                padding-left: 0.6em;
+            }
+
+            .price-text {
+                max-width: 42ch;
+            }
+        }
+    }
+}
+
+footer {
+    background: #d9d9d9;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 3em;
+    }
+
+    li {
+        display: block;
+        font-size: 1.2em;
+    }
+}
